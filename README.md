@@ -1,18 +1,25 @@
-## Getting Started
+## Matrix Multiplication App
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This app prompts you to input two .txt files with square matrices inside them or two integers, then the app will compute matrix multiplication on those two matrices. After the computation is complete, the program will write the new matrix into a file.
 
-## Folder Structure
+## Inputting Files
 
-The workspace contains two folders by default, where:
+Enter in one file containing a matrix at a time (as prompted)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+The app will compute the matrix multiplication with the matrices you provided then write the resulting matrix into a new file named 'matrix3.txt'.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Inputting Integers
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Enter in one integer at a time (as prompted)
 
-## Dependency Management
+This method will generate a square matrix per each integer inputted (one at a time as prompted). The values of the elements in the matrices are random from 1 to 100. Each square matrix that is generated will be written to new files named 'matrix1.txt' and 'matrix2.txt' respectively.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+The integer inputted determines the size of the rows of each matrix, and therefore the size of each square matrix.
+
+When inputting integers, both integers must have the same value in order for the app to make a square matrix.
+
+The app will compute the matrix multiplication with the generated matrices then write the resulting matrix into a new file named 'matrix3.txt
+
+## Sample Matrices
+
+This app comes with two premade matrices, 'MatrixA.txt' and 'MatrixB.txt', as an example.
